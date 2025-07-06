@@ -1,5 +1,3 @@
-CREATE DATABASE raw_db;
-
 CREATE TABLE `users` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
@@ -7,8 +5,7 @@ CREATE TABLE `users` (
   `gender` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `phone` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
-) 
-
+);
 
 INSERT INTO `users` (`id`, `name`, `age`, `gender`, `email`, `phone`) VALUES
 (1, 'Garret Adams', 62, 'Female', 'evert.roberts@kulas.org', '(395) 425-5448 x9404'),
@@ -31,9 +28,6 @@ INSERT INTO `users` (`id`, `name`, `age`, `gender`, `email`, `phone`) VALUES
 (18, 'Mrs. Shyanne Bashirian III', 53, 'Female', 'abdiel.lemke@yahoo.com', '846-404-1416'),
 (19, 'Prof. Pierce Krajcik DVM', 59, 'Man', 'greenholt.pansy@mohr.com', '+1.335.200.7051'),
 (20, 'Curtis Rolfson', 49, 'Female', 'kevin27@gmail.com', '736.982.3105'),
-(21, 'Toney Ziemann', 41, 'Female', 'alessia.skiles@gmail.com', '318-593-7633 x6912')
-
-
-COMMIT;
+(21, 'Toney Ziemann', 41, 'Female', 'alessia.skiles@gmail.com', '318-593-7633 x6912');
 
 
