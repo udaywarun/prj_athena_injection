@@ -1,4 +1,4 @@
-
+CREATE DATABASE raw_db;
 
 CREATE TABLE `users` (
   `id` bigint(20) UNSIGNED NOT NULL,
