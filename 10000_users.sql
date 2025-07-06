@@ -7,7 +7,7 @@ CREATE TABLE `users` (
   `gender` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `phone` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) 
 
 
 INSERT INTO `users` (`id`, `name`, `age`, `gender`, `email`, `phone`) VALUES
